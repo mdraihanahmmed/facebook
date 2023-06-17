@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.anim {
+  animation: slow 0.4s linear;
+}
+
+@keyframes slow {
+  from {
+    transform: scaleX(0%);
+  }
+  to {
+    transform: scaleX(100%);
+  }
+}
+
+.successAnim {
+  animation: slow2 0.4s linear;
+}
+
+@keyframes slow2 {
+  from {
+    margin-top: -50px;
+    transform: scaleY(0%);
+  }
+  to {
+    transform: scaleY(100%);
+  }
+}
+
+.forgotAnim {
+  animation: slow3 0.4s linear;
+}
+
+@keyframes slow3 {
+  from {
+    transform: scaleX(0%);
+  }
+  to {
+    transform: scaleY(50%);
+  }
+}
